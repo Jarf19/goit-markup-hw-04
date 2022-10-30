@@ -35,7 +35,6 @@ li {
 
 
 
- 
 
 /* header*/
 header {
@@ -325,6 +324,11 @@ text-align: center;
 color: var(--second-main-color);
 font-weight: 700;
 line-height: 1.17;
+}
+.client-list{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
 }
 
 
