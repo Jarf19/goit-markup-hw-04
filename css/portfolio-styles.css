@@ -186,6 +186,7 @@ header {
 margin-left: 8px;
 
 
+
  }
 .title-button:first-child{
     margin-left: 0;
@@ -209,13 +210,18 @@ margin-left: 8px;
     padding-right:22px ;
     padding-top: 6px;
     padding-bottom:6px ;
-    border: none;
-    }
+    border: none;}
+   
 
  .button-list:hover,.button-list:focus {
     background-color:var(--hover-color);
-    color: var(--main-background-color);   
- }
+    color: var(--main-background-color); 
+    box-shadow: X0 Y2 B2 S0 rgba(0, 0, 0, 0.12),
+            X0 Y1 B2 S0 rgba(0, 0, 0, 0.08),
+            X0 Y3 B1 S0 rgba(0, 0, 0, 0.1);
+    }
+    
+ 
 
 
   .menue { 
@@ -239,7 +245,7 @@ padding-right: 24px;
 padding-left: 24px;
 padding-top: 20px;
 padding-bottom: 20px;
-box-shadow: X1 Y4 B6 S0 rgba(0, 0, 0, 0.16) 0 Y4 B4 S0 rgba(0, 0, 0, 0.06) Y1 B1 S0 rgba(0, 0, 0, 0.12);
+
 
  }
 
