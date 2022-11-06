@@ -84,7 +84,6 @@ header {
     display: flex;
 }
 
-.title-header {}
 
 .header-list {
     color: var(--second-main-color);
@@ -124,12 +123,13 @@ header {
 }
 
 .title-contact-header {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .title-contact-header:first-child {
     margin-left: 0px;
 }
+
 
 .link-maito,
 .link-tel {
@@ -138,7 +138,26 @@ header {
     font-size: 14px;
     line-height: calc(16/14);
     text-decoration-line: none;
+    align-items: top;
+}
 
+.icon-envelope {
+    fill: rgba(117, 117, 117, 1);
+}
+
+.icon-smartphone {
+    fill: rgba(117, 117, 117, 1);
+
+}
+
+.icon-envelope:hover,
+:focus {
+    color: var(--hover-color);
+}
+
+.icon-smartphone:hover,
+:focus {
+    color: var(--hover-color);
 }
 
 .link-maito:hover,
@@ -216,10 +235,9 @@ margin-left: 8px;
  .button-list:hover,.button-list:focus {
     background-color:var(--hover-color);
     color: var(--main-background-color); 
-    box-shadow: X0 Y2 B2 S0 rgba(0, 0, 0, 0.12),
-            X0 Y1 B2 S0 rgba(0, 0, 0, 0.08),
-            X0 Y3 B1 S0 rgba(0, 0, 0, 0.1);
-    }
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.12);}
     
  
 
@@ -236,6 +254,20 @@ margin-left: 8px;
     background-color: var(--main-background-color);
     padding-top: none;
     }
+.title-list:hover
+{
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.title-list:focus{
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+
+}
+
  .menue-card {
 border-left: 1px solid #EEEEEE;
 border-right: 1px solid #EEEEEE;
@@ -245,7 +277,6 @@ padding-right: 24px;
 padding-left: 24px;
 padding-top: 20px;
 padding-bottom: 20px;
-
 
  }
 
@@ -277,6 +308,16 @@ footer {
     padding-bottom: 60px;
 }
 
+.conteiner-footer {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.conteiner-logo-footer {
+    width: 240px;
+}
 
 .adress {
     color: var(--main-background-color);
@@ -298,7 +339,6 @@ footer {
     line-height: 1.7;
     text-decoration-line: none;
 
-
 }
 
 .title-contact-footer {
@@ -313,6 +353,7 @@ footer {
     color: var(--main-background-color);
     text-decoration-line: none;
 
+
 }
 
 .logo-two,
@@ -321,9 +362,58 @@ footer {
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31/26);
+
+
 }
 
 .logo-tree {
     color: var(--hover-color);
     text-decoration-line: none;
+
+}
+
+.social-contact {
+    padding-top: 12px;
+    padding-left: 70px;
+}
+
+
+.footer-social-contact {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: var(--main-background-color);
+    font-weight: 700;
+    line-height: 1.17;
+    width: 116px;
+    margin-bottom: 20px;
+
+}
+
+.social-icon-list {
+    display: inline;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+
+.social-icon-one {
+    background-color: solid rgba(255, 255, 255, 0.1);
+    fill: #FFFFFF;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+
+}
+
+.social-icon-one:hover {
+    background-color: var(--hover-color);
+    fill: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+
+.social-icon-one:focus {
+    background-color: var(--hover-color);
+    fill: rgba(255, 255, 255, 1);
+    border-radius: 50%;
 }
